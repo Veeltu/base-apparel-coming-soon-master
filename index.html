@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <main>
+  
+  <section class="card">
+    <div class="logo-container">
+      <img src="images/logo.svg" alt="logo" id="logo">
+    </div>
+    <div class="content-container">
+    <div class="heroImg-container">
+      <img src="images/hero-mobile.jpg" alt="hero-mobile" id="hero-mobile">
+      <img src="images/hero-desktop.jpg" alt="hero-desktop" id="hero-desktop">
+    </div>
+    <div class="main-section">
+      <h1><span>We're</span> coming soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <form id="form" method="get">
+          <div class="content__send-form" id="border">
+            <input class="content__email-field" type="text" id="input" placeholder="Email Address">  
+            <img class="error-icon hidden" src="images/icon-error.svg" id="error-icon">
+            <!-- <div class="redborder invalid" id="redborder"><img src="images/icon-error.svg" id="error-icon"></div> -->
+            <div class="content__btn-container">
+                <button class="content__send-btn" type="submit" title="Send email" >
+                  <img class="arrow" src="images/icon-arrow.svg" alt="arrow" id="arrow" >
+                  
+                 </button>
+            </div>
+            
+          </div>
+          <div class="error-message invalid hidden " id="error-message">Please provide a valid email</div>
+        </form>
+      <div class="thxx hidden" id="thxx">thanks for checking!</div>  
+        
+
+
+
+      
+      </div>
+    </div>
+    </main>
+    
+    </div>
+  
+
+  </section>
+  <script src="index.js"></script>
+<!-- 
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Paweł Andrys</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
+
